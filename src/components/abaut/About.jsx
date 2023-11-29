@@ -1,9 +1,9 @@
-import React from 'react';
-import './about.css';
-import AboutImg from '../../assets/Abaut.jpg';
-import CV from '../../assets/CV.pdf';
-import Info from './Info';
-import Files from './Files';
+import React from 'react'
+import './about.css'
+import AboutImg from '../../assets/Abaut.jpg'
+import CV from '../../assets/CV'
+import Info from './Info'
+import Files from './Files'
 
 const About = () => {
   return (
@@ -26,7 +26,7 @@ const About = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
 export default About
