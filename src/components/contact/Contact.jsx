@@ -1,21 +1,21 @@
-import React, { useRef } from 'react';
-import emailjs from '@emailjs/browser';
-import './contact.css';
-import Send from '../home/Send.jsx';
+import React, { useRef } from 'react'
+import emailjs from '@emailjs/browser'
+import './contact.css'
+import Send from '../home/Send.jsx'
 
 const Contact = () => {
-  const form = useRef();
+  const form = useRef()
   const sendEmail = (e) => {
-    e.preventDefault();
+    e.preventDefault()
 
     emailjs.sendForm(
       'service_xkjjdwd',
       'template_033dzm3',
       form.current,
       'XWIhucTnxqNvOP90f'
-    );
-    e.target.reset();
-  };
+    )
+    e.target.reset()
+  }
   return (
     <section className='contact section' id='contact'>
       <h2 className='section__title'>Get in touch</h2>
@@ -27,7 +27,9 @@ const Contact = () => {
             <div className='contact__card'>
               <i className='uil uil-envelope-upload contact__card-icon'></i>
               <h3 className='contact__card-title'>Email</h3>
-              <span className='contact__card-data'>sitsocker@gmail.com</span>
+              <span className='contact__card-data'>
+                archil.webdev@gmail.com
+              </span>
               <a
                 href='https://mail.google.com/'
                 target='_blank'
@@ -108,7 +110,7 @@ const Contact = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Contact;
+export default Contact
