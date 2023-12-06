@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.22e93cb2.css",
-    "main.js": "/static/js/main.5f306882.js",
+    "main.js": "/static/js/main.1757fa10.js",
     "static/media/Abaut.jpg": "/static/media/Abaut.391d7387b630eaac4c2f.jpg",
     "static/media/Hero.jpg": "/static/media/Hero.1a4411246fda653afc21.jpg",
     "static/media/Seafood.jpg": "/static/media/Seafood.4c592a9908c94dae19be.jpg",
@@ -9,10 +9,10 @@
     "static/media/CV.pdf": "/static/media/CV.cc5e1d6491277267d970.pdf",
     "index.html": "/index.html",
     "main.22e93cb2.css.map": "/static/css/main.22e93cb2.css.map",
-    "main.5f306882.js.map": "/static/js/main.5f306882.js.map"
+    "main.1757fa10.js.map": "/static/js/main.1757fa10.js.map"
   },
   "entrypoints": [
     "static/css/main.22e93cb2.css",
-    "static/js/main.5f306882.js"
+    "static/js/main.1757fa10.js"
   ]
 }

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 const Info = () => {
   return (
@@ -11,7 +11,7 @@ const Info = () => {
         />
 
         <div className='about__title'>Experience</div>
-        <div className='about__subtitle'>Less then 1 year</div>
+        <div className='about__subtitle'>More then 2 year</div>
       </div>
       <div className='about__box'>
         <img
@@ -20,7 +20,7 @@ const Info = () => {
           className='about__icon'
         />
         <div className='about__title'>Completed</div>
-        <div className='about__subtitle'>4 + Projects</div>
+        <div className='about__subtitle'>10 + Projects</div>
       </div>
       <div className='about__box'>
         <img
@@ -32,7 +32,7 @@ const Info = () => {
         <div className='about__subtitle'>Online 24/7</div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Info;
+export default Info
